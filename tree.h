@@ -3,7 +3,6 @@
 #include<stdio.h>
 #include<malloc.h>
 #include<math.h>
-typedef int Type;
 typedef int KeyType;
 typedef char InfoType;
 typedef struct
@@ -23,22 +22,12 @@ typedef struct BiNode
 
 
 //二叉排序树的递归查找
-BiTree SearchBST(BiTree T, Type key);
+BiTree SearchBST(BiTree T, KeyType key);
+
+//插入节点
+BiTree Insert(BiTree T, BiNode a);
 
 
-
-
-
-
-//链式二叉树中序遍历
-int InOrderTraverse(BiTree T);
-
-
-
-
-
-//先序建立
-BiTree CreaBiTree(BiTree* T);
 
 
 
