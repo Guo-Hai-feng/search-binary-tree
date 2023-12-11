@@ -14,6 +14,7 @@ BiTree SearchBST(BiTree T, KeyType key)
 		return SearchBST(T->rchild, key);
 }
 
+
 BiTree Createnode(int arr, char ch)
 {
 	BiTree temp = (BiTree)malloc(sizeof(BiNode));
